@@ -15,7 +15,7 @@ import time
 username = "#######"
 password = "##########"
 
-ipaddress = ['http://41.186.195.8', 'http://192.168.10.220']
+ipaddress = ['http://*.*.*.*', 'http://*.*.*.*'] # first IP for office, second for public
 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
